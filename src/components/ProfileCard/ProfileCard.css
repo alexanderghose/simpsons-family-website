@@ -10,15 +10,29 @@
     margin-bottom: 20px;
     position: relative;
 }
-  
-.tb-card:hover {
-    background-color: #fafafc;
-}
 
 .profile-image {
     max-width: 100%;
     max-height: 100%;
 }
+
+.tb-card:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tb-card:hover:before {
+    opacity: 0.5;
+    background-color: lightgoldenrodyellow;
+}
+
   
 /* .single-image {
     background-image: url("./homer.jpg");

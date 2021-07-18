@@ -1,17 +1,25 @@
 import './App.css';
-import ProfileCard from './components/ProfileCard/ProfileCard'
+import ProfileCard from './components/ProfileCard/ProfileCard.jsx'
+import Nav from './components/Nav/Nav.jsx'
+import homer from './homer.jpg'
 
 function App() {
   return (
-    <section class="blog-items team-cards">
-        <div class="inner-wrapper">
-          <div class="blog-container">
-            <ProfileCard />
-            <ProfileCard />
-            <ProfileCard />
+    <div>
+      <Nav />
+      <section className="blog-items team-cards">
+          <div className="inner-wrapper">
+            <div className="blog-container">
+              <ProfileCard pic={homer} />
+              <ProfileCard pic={homer} />
+              <ProfileCard />
+              <ProfileCard />
+              <ProfileCard />
+              <ProfileCard />
+            </div>
           </div>
-        </div>
-    </section>
+      </section>
+    </div>
   );
 }
 
