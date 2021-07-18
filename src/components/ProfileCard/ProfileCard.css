@@ -1,0 +1,52 @@
+
+
+.single-article {
+    text-decoration: none;
+    color: #3b1e5e;
+    display: flex;
+    width: 33%;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+  
+.tb-card:hover {
+    background-color: #fafafc;
+}
+
+.profile-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+  
+/* .single-image {
+    background-image: url("./homer.jpg");
+    background-size: contain;
+    background-position: center;
+    padding-top: 50%;
+    width: 100%;
+} */
+  
+.single-content {
+    padding: 35px 8%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.card-icon {
+    background-color: #7d76b6;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
